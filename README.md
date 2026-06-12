@@ -76,9 +76,19 @@ vless://这是UUID@这是服务器:11451?type=tcp&encryption=none&flow=xtls-rprx
 3. 到 Actions 启用并手动触发 `Deploy to GitHub Pages` 工作流
 4. _(可选) 到 Settings -> Pages 配置自定义域名_
 
+## Star History
+
+<a href="https://www.star-history.com/?repos=siiway%2Furlclash-converter&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=siiway/urlclash-converter&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=siiway/urlclash-converter&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=siiway/urlclash-converter&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ## End
 
-Code powered by Grok + Gemini + Claude + Copilot, under GPL-3.0 License.
+Code powered by ???, under GPL-3.0 License.
 
 本工具仅提供 URL 和 Clash Config 的配置文件格式转换，不存储任何信息，不提供任何代理服务，一切使用产生后果由使用者自行承担，SiiWay Team 及开发本工具的成员 **不负任何责任**.
 
