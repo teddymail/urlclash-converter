@@ -28,12 +28,16 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Build
-        run: bun run build
+        run: |
+          bun run build
+          echo "=== 检查打包后到底生成了什么文件夹 ==="
+          ls -la  # ✨ 这一行能让你在 Actions 日志里亲眼看到到底有没有生成 dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/
+          # 确保路径写成相对路径 './dist'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
